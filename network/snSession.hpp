@@ -145,7 +145,7 @@ namespace rage
 
 		inline snPlayer* get_player_by_token(uint64_t token)
 		{
-			for (std::uint32_t i = 0; i < m_player_count; i++)
+			for (std::int32_t i = 0; i < m_player_count; i++)
 			{
 				if (m_players[i]->m_player_data.m_host_token == token)
 				{
